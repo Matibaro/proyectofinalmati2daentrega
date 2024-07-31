@@ -1,0 +1,80 @@
+.footer {
+    display: flex;
+    background: #000000e6;
+    height: 156px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+  
+    &__iso {
+      width: 110px;
+      cursor: pointer;
+    }
+  
+    &__marca {
+      margin-top: 15px;
+      margin-left: 5px;
+  
+      h2 {
+        color: #FFFFFF;
+        font-size: 35px;
+      }
+  
+      h3 {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+  
+    &__texto {
+      color: #FFFFFF;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+    }
+  
+    &__redes {
+      display: flex;
+      margin-right: 50px;
+      gap: 15px;
+    }
+  
+    @media (max-width: 1100px) {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 400px;
+  
+      &__logotipo {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+      }
+  
+      &__iso {
+        margin-top: 0;
+      }
+  
+      &__marca h2 {
+        margin-bottom: 0;
+      }
+  
+      &__marca h3 {
+        display: none;
+      }
+  
+      &__redes {
+        padding-bottom: 20px;
+        margin-right: 0;
+      }
+  
+      &__texto {
+        font-size: 12px;
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+.contacto__info {
+    background-color: $color-primario;
+    color: white;
+    height: min-content;
+    width: max-content;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: $sombra-caja;
+  
+    @media (min-width: 995px) {
+      height: 300px;
+    }
+  }

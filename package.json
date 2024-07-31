@@ -1,0 +1,11 @@
+{
+  "name": "proyectofinalmati---copia",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de una página web para la venta de ropa. La página está diseñada para ofrecer una experiencia de compra en línea intuitiva y eficiente, con secciones para productos, contacto, y más.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+.novedades {
+    padding-top: 6rem;
+
+&__title {
+    
+    background-color: $color-primario;
+    color: white;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: $sombra-titulo
+}
+
+}
+

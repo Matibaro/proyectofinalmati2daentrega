@@ -1,0 +1,25 @@
+.carousel {
+    margin-bottom: 30px;
+    z-index: 0;
+  
+    &__title {
+      background-color: $color-primario;
+      color: white;
+      width: 50rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-shadow: $sombra-titulo;
+    }
+  
+    &__img {
+      border-radius: 30px;
+    }
+  
+    @media (min-width: 1000px) {
+      width: 35rem;
+    }
+  }

@@ -1,0 +1,14 @@
+.btn-primary {
+    background-color: $color-primario;
+    box-shadow: $sombra-btn1;
+    border-radius: 10px;
+    font-size: 25px;
+    border-style: none;
+  }
+  
+  .btn-dark {
+    background-color: $color-primario;
+    box-shadow: $sombra-btn2;
+    border-color: $color-primario;
+    color: #FFFFFF;
+  }

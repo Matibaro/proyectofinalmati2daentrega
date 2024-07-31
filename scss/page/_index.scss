@@ -1,0 +1,94 @@
+.portada__foto {
+    width: 15rem;
+    padding-top: 6rem;
+    transform: scale(1.13);
+  
+    @media (min-width: 1000px) {
+      width: 20rem;
+      padding-top: 10rem;
+      margin-right: 3rem;
+    }
+  }
+  
+  .portada__texto {
+    @media (min-width: 1000px) {
+      padding-left: 65px;
+    }
+  }
+  
+  .portada__titulo {
+    @media (max-width: 349px) {
+      font-size: 29px;
+    }
+  }
+  
+  .float {
+    background-color: $color-primario;
+    width: 80vw;
+    height: 70px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    box-shadow: $sombra-titulo;
+  
+    &__separador {
+      font-weight: 100;
+      font-size: 35px;
+    }
+  
+    @media (max-width: 1470px) {
+      display: none;
+    }
+  }
+  
+  .servicios {
+    &__time,
+    &__warranty,
+    &__lab,
+    &__chat {
+      transition: all 1s;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+  .clientes {
+    &__title {
+      background-color: $color-primario;
+      color: white;
+      padding-top: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-shadow: $sombra-titulo;
+    }
+  }
+  page/_quienes-somos.scss
+  scss
+  Copiar código
+  .quienes-somos {
+    padding-top: 5rem;
+  
+    &__box {
+      background-color: #f5f6fa;
+      width: 15rem;
+      border-radius: 20px;
+      box-shadow: $sombra-caja;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+  }

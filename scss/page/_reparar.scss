@@ -1,0 +1,35 @@
+.portada2 {
+    padding-top: 7rem;
+
+    &__texto {
+        width: 550px;
+    }
+
+    &__foto {
+        padding-left: 3rem;
+    }
+}
+
+.destacadas__title {
+    background-color: $color-primario;
+    color: white;
+    height: 4rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: $sombra-titulo;
+}
+
+.fallasTipicas {
+    background-color: $color-primario;
+    color: #FFFFFF;
+    box-shadow: $sombra-caja; 
+    border-radius: 30px;
+    padding-top: 2rem;
+}
+
+.fallasPlaca {
+    @extend.fallasTipicas
+}
